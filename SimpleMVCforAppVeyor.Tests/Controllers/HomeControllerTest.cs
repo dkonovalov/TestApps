@@ -22,7 +22,7 @@ namespace SimpleMVCforAppVeyor.Tests.Controllers
             ViewResult result = controller.Index() as ViewResult;
 
             // Assert
-            Assert.AreEqual("AppVeyor controlled Azure deploy! Isn't it awesome?", result.ViewBag.Message);
+            Assert.AreEqual("AppVeyor controlled Azure deploy. Isn't it awesome?", result.ViewBag.Message);
         }
 
         [TestMethod]
