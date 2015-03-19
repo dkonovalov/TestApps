@@ -754,3 +754,8 @@ tr.pager td {
             margin: 0;
         }
 }
+
+.centerbox {
+    margin: 0px auto;
+    width: 500px;
+}

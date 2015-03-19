@@ -10,7 +10,7 @@ namespace SimpleMVCforAppVeyor.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message ="AppVeyor controlled Azure deploy! Isn't it awesome?";
+            ViewBag.Message ="AppVeyor controlled Azure deploy. Isn't it awesome?";
             return View();
         }
 
